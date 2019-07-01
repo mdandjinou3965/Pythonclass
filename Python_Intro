@@ -1,0 +1,37 @@
+//File: Assignment week 4
+//Name: Mohamed F Dandjinou
+Date: 06/30/2019
+Course: DSC510-T303
+Usage: Function
+print('Welcome To Your Online Bill Pay Portal')
+Welcome To Your Online Bill Pay Portal
+>>> company_name=input('Please Enter Name\n')
+Please Enter Name
+Alcatraz# randomly chosen company name
+fiber='How Many Feet of Cable Were Installed?' # defininf fiber
+>>> qty=input(fiber)# user enter company name
+How Many Feet of Cable Were Installed?int(qty)#prompt user to enter qty as an integer
+>>> 55
+55
+>>> def Cost_1(qty):
+	return 0.87*qty
+  >>> def Rule_1():
+	if qty<100:
+		total=Cost_1(qty)
+		template='Your Total is ${:.2f}.'
+		print(template.format(total)
+  else:
+        if qty>100:
+          total = qty*0.80
+          template='Your Total is ${:.2f}.'
+		      print(template.format(total)
+          else:
+               if qty>250:
+                  total = qty*0.70
+                  template='Your Total is ${:.2f}.'
+		              print(template.format(total 
+                  else:
+                       if qty>500:
+                          total = qty*0.50
+                          template='Your Total is ${:.2f}.'
+		                       print(template.format(total 
